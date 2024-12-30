@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - logicalFilePath: db/changelog/db.changelog-master.yaml
+  - changeSet:
+      id: cake
+      author: Andrej
+      changes:
+        - sqlFile:
+            path: db/changelog/cakeTableCreate.sql

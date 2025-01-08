@@ -1,7 +1,6 @@
 package by.kovsh.bakerySweetBun.service.dto;
 
-public class CakeDto {
-
+public class SoftDrinkDto {
     private Long id;
 
     private String name;

@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 //@Getter
 //@Setter
 @MappedSuperclass
@@ -24,7 +26,7 @@ public class AbstractEntity {
     protected Long price;
 
     @Column(name = "ingredients")
-    protected Ingredients ingredients;
+    protected String ingredients;
 
 
 
@@ -60,11 +62,11 @@ public class AbstractEntity {
         this.price = price;
     }
 
-    public Ingredients getIngredients() {
+    public String getIngredients() {
         return ingredients;
     }
 
-    public void setIngredients(Ingredients ingredients) {
+    public void setIngredients(String ingredients) {
         this.ingredients = ingredients;
     }
 

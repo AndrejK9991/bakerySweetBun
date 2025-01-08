@@ -1,7 +1,5 @@
 package by.kovsh.bakerySweetBun.service.dto;
 
-import by.kovsh.bakerySweetBun.entity.Ingredients;
-
 public class CroissantDto {
 
     private Long id;
@@ -12,13 +10,13 @@ public class CroissantDto {
 
     private Long price;
 
-    private Ingredients ingredients;
+    private String ingredients;
 
-    public Ingredients getIngredients() {
+    public String getIngredients() {
         return ingredients;
     }
 
-    public void setIngredients(Ingredients ingredients) {
+    public void setIngredients(String ingredients) {
         this.ingredients = ingredients;
     }
 

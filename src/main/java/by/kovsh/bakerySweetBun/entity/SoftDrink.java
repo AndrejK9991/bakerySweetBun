@@ -12,6 +12,6 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "softDrink")
+@Table(name = "soft_drink")
 public class SoftDrink extends AbstractEntity {
 }

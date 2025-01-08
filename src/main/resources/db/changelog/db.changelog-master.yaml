@@ -6,3 +6,39 @@ databaseChangeLog:
       changes:
         - sqlFile:
             path: db/changelog/cakeTableCreate.sql
+  - changeSet:
+      id: cookie
+      author: Andrej
+      changes:
+        - sqlFile:
+            path: db/changelog/cookieTableCreate.sql
+  - changeSet:
+      id: croissant
+      author: Andrej
+      changes:
+        - sqlFile:
+            path: db/changelog/croissantTableCreate.sql
+  - changeSet:
+      id: freshBread
+      author: Andrej
+      changes:
+        - sqlFile:
+            path: db/changelog/freshBreadTableCreate.sql
+  - changeSet:
+      id: muffin
+      author: Andrej
+      changes:
+        - sqlFile:
+            path: db/changelog/muffinTableCreate.sql
+  - changeSet:
+      id: pie
+      author: Andrej
+      changes:
+        - sqlFile:
+            path: db/changelog/pieTableCreate.sql
+  - changeSet:
+      id: softDrink
+      author: Andrej
+      changes:
+        - sqlFile:
+            path: db/changelog/softDrinkTableCreate.sql

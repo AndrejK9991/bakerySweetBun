@@ -23,6 +23,7 @@ public class CakeMapper {
             cakeDto.setName(cakes.get(i).getName());
             cakeDto.setMass(cakes.get(i).getMass());
             cakeDto.setPrice(cakes.get(i).getPrice());
+            cakeDto.setIngredients(cakes.get(i).getIngredients());
 //            cakeDto.setStarSystemId(stars.get(i).getStarSystem().getId());
             cakeDtos.add(cakeDto);
         }
@@ -44,6 +45,7 @@ public class CakeMapper {
             cake.setName(cakeDtos.get(i).getName());
             cake.setMass(cakeDtos.get(i).getMass());
             cake.setPrice(cakeDtos.get(i).getPrice());
+            cake.setIngredients(cakeDtos.get(i).getIngredients());
 //            starSystem.setId(starDtos.get(i).getStarSystemId());
 //            star.setStarSystem(starSystem);
             cakes.add(cake);

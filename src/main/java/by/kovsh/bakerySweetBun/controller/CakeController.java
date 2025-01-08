@@ -24,7 +24,20 @@ public class CakeController {
 
     @GetMapping
     List<CakeDto> getAllCakes() {
+
         return cakeService.getAllCakes();
+    }
+
+    @PutMapping
+    void updateCake(@RequestBody CakeDto cakeDto) {
+
+        cakeService.updateCake(cakeDto);
+    }
+
+    @DeleteMapping
+    void deleteCakes(@RequestBody List<Long> ids) {
+
+        cakeService.deleteAllCakesByIds(ids);
     }
 
 

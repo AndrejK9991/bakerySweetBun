@@ -23,6 +23,9 @@ public class AbstractEntity {
     @Column(name = "price")
     protected Long price;
 
+    @Column(name = "ingredients")
+    protected Ingredients ingredients;
+
 
 
     public Long getId() {
@@ -56,4 +59,13 @@ public class AbstractEntity {
     public void setPrice(Long price) {
         this.price = price;
     }
+
+    public Ingredients getIngredients() {
+        return ingredients;
+    }
+
+    public void setIngredients(Ingredients ingredients) {
+        this.ingredients = ingredients;
+    }
+
 }

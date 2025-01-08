@@ -2,7 +2,7 @@ package by.kovsh.bakerySweetBun.service.dto;
 
 import by.kovsh.bakerySweetBun.entity.Ingredients;
 
-public class CakeDto {
+public class CroissantDto {
 
     private Long id;
 

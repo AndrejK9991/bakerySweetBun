@@ -2,7 +2,7 @@ package by.kovsh.bakerySweetBun.service.dto;
 
 import by.kovsh.bakerySweetBun.entity.Ingredients;
 
-public class CakeDto {
+public class CookieDto {
 
     private Long id;
 
@@ -53,4 +53,5 @@ public class CakeDto {
     public void setName(String name) {
         this.name = name;
     }
+
 }
